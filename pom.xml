@@ -18,8 +18,6 @@
 		<java.version>11</java.version>
 	</properties>
 
-	<docker.image.prefix>coecomber</docker.image.prefix>
-
 	<github.global.server>github</github.global.server>
 	<github.global.oauth2Token>${env.GITHUB_OAUTH_TOKEN}</github.global.oauth2Token>
 
