@@ -1,4 +1,4 @@
 # SudokuSolver
 Sudoku solver algorithm
 
-More explenation here later.
+[![Build Status](https://travis-ci.com/coecomber/SudokuSolver.svg)](https://travis-ci.com/coecomber/SudokuSolver)
