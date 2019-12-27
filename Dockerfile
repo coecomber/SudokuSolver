@@ -12,7 +12,7 @@ EXPOSE 8100
 ARG JAR_FILE
 
 # Add the application's jar to the container
-ADD sudokuSolver-0.0.1.jar target/app.jar
+ADD ${JAR_FILE} app.jar
 
 # Run the jar file
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
