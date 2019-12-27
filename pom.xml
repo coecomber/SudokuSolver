@@ -66,7 +66,7 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>1.2.1</version>
 				<configuration>
-					<imageName>sudokusolver</imageName>
+					<imageName>coecomber/sudoku_solver.jar</imageName>
 					<dockerDirectory>/</dockerDirectory>
 					<resources>
 						<resource>
