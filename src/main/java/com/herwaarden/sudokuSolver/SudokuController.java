@@ -11,10 +11,11 @@ import java.util.Arrays;
 
 @Controller
 public class SudokuController {
-    Sudoku sudoku = new Sudoku();
+
 
     @GetMapping("/sudoku")
     public String getSudoku(@RequestParam(name="board", defaultValue="") String paramString, Model model) {
+        Sudoku sudoku = new Sudoku();
 
         String string = Arrays.deepToString(sudoku.board);
         StringBuilder htmlString = new StringBuilder();
